@@ -1,0 +1,60 @@
+body, h1, h2, h3, p{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(31, 31, 31);
+}
+
+/* Main */
+#resultArea{
+    height: 35vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 340px;
+    margin: 0 auto;
+}
+
+#resultText{
+    width: 100%;
+    color: white;
+    border: 0;
+    background-color: unset;
+    font-size: 20pt;
+    text-align: right;
+}
+
+#btnArea{
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 340px;
+    margin: 0 auto;
+}
+
+.btn{
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+.numBtn{
+    background-color: rgb(50, 50, 50);
+}
+
+.fnBtn{
+    background-color: orange;
+}
+
+.btnsLine{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
