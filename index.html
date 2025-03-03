@@ -8,81 +8,47 @@
 </head>
 <body>
     <div id="wrap">
-        <div id="resultArea">
-            <input type="text" id="resultText">
-        </div>
-        <div id="btnArea">
-            <div id="firstLine" class="btnsLine">
-                <div>
-                    <button class="btn fnBtn">AC</button>
+        <div id="calculater">
+            <div id="textArea">
+                <div id="fomulaArea">  
+                    <input type="text" id="fomula">
                 </div>
-                <div>
-                    <button class="btn fnBtn">+/-</button>
+                <div id="resultArea">
+                    <p id="resultText">0</p>
                 </div>
-                <div>
-                    <button class="btn fnBtn">%</button>
-                </div>
-                <div>
+            </div>
+            <div id="btnArea">
+                <div class="btnsLine">
+                    <button class="btn">&lt;</button>
+                    <button class="btn" style="flex: 2">AC</button>
                     <button class="btn fnBtn">÷</button>
                 </div>
-            </div>
-            <div id="secondLine" class="btnsLine">
-                <div>
+                <div class="btnsLine">
                     <button class="btn numBtn">7</button>
-                </div>
-                <div>
                     <button class="btn numBtn">8</button>
-                </div>
-                <div>
                     <button class="btn numBtn">9</button>
+                    <button class="btn fnBtn">×</button>
                 </div>
-                <div>
-                    <button class="btn fnBtn">X</button>
-                </div>
-            </div>
-            <div id="thirdLine" class="btnsLine">
-                <div>
+                <div class="btnsLine">
                     <button class="btn numBtn">4</button>
-                </div>
-                <div>
                     <button class="btn numBtn">5</button>
-                </div>
-                <div>
                     <button class="btn numBtn">6</button>
+                    <button class="btn fnBtn">–</button>
                 </div>
-                <div>
-                    <button class="btn fnBtn">-</button>
-                </div>
-            </div>
-            <div id="fourthLine" class="btnsLine">
-                <div>
+                <div class="btnsLine">
                     <button class="btn numBtn">1</button>
-                </div>
-                <div>
                     <button class="btn numBtn">2</button>
-                </div>
-                <div>
                     <button class="btn numBtn">3</button>
-                </div>
-                <div>
                     <button class="btn fnBtn">+</button>
                 </div>
-            </div>
-            <div id="fifthLine" class="btnsLine">
-                <div>
-                    <button class="btn numBtn">a</button>
-                </div>
-                <div>
-                    <button class="btn numBtn">0</button>
-                </div>
-                <div>
-                    <button class="btn numBtn">.</button>
-                </div>
-                <div>
-                    <button class="btn fnBtn">=</button>
+                <div class="btnsLine">
+                    <button class="btn" style="flex: 2 ; border-bottom-left-radius: 24px;">0</button>
+                    <button class="btn">.</button>
+                    <button class="btn fnBtn" style="border-bottom-right-radius: 24px;">=</button>
                 </div>
             </div>
         </div>
     </div>
+    <script src="calculate.js"></script>
 </body>
 </html>

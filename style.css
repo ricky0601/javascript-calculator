@@ -2,59 +2,80 @@ body, h1, h2, h3, p{
     margin: 0;
 }
 
+button{
+    padding: 0;
+}
+
 body{
     background-color: rgb(31, 31, 31);
 }
 
 /* Main */
-#resultArea{
-    height: 35vh;
+#wrap{
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    width: 340px;
-    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
 }
 
-#resultText{
-    width: 100%;
-    color: white;
-    border: 0;
-    background-color: unset;
-    font-size: 20pt;
-    text-align: right;
-}
+#calculater{
+    width: 412px;
+    height: 784px;
 
-#btnArea{
-    height: 65vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 10px;
-    width: 340px;
-    margin: 0 auto;
 }
 
-.btn{
-    border-radius: 100%;
-    width: 80px;
-    height: 80px;
+#textArea{
+    background-color: rgba(65, 60, 60, 1);
+    border-top-right-radius: 24px;
+    border-top-left-radius: 24px;
+}
+
+#fomulaArea{
+    text-align: right;
+    padding-right: 18px;
+    padding-top: 28px;
+    padding-bottom: 50px;
+}
+
+#fomula{
+    text-align: right;
     border: 0;
+    background-color: unset;
     color: white;
+    font-size: 30px;
+}
+
+#resultArea{
+    padding-right: 18px;
+    padding-bottom: 13px;
+}
+
+#resultText{
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60.51px;
+    text-align: right;
+    color: white;
+}
+.btn{
+    background-color: rgba(224, 224, 224, 1);
+    height: 120px;
     font-weight: bold;
     font-size: 20pt;
-}
-
-.numBtn{
-    background-color: rgb(50, 50, 50);
+    flex: 1;
+    border: solid 1px rgba(142, 142, 142, 1);
 }
 
 .fnBtn{
-    background-color: orange;
+    background-color: rgba(232, 150, 80, 1);
+    color: white;
 }
 
 .btnsLine{
     display: flex;
     justify-content: center;
-    gap: 10px;
 }
